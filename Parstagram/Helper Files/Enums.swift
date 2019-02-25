@@ -14,4 +14,6 @@ enum Segue: String {
 
 enum Cell: String {
     case PostCell = "PostCell"
+    case CommentCell = "CommentCell"
+    case AddCommentCell = "AddCommentCell"
 }
