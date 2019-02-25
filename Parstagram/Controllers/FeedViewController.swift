@@ -161,7 +161,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             return cell
         } else {
-            print("selected correctly")
             let cell = tableView.dequeueReusableCell(withIdentifier: Cell.AddCommentCell.rawValue)!
             return cell
         }
